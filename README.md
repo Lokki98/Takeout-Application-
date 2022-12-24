@@ -18,11 +18,11 @@ $ npm install -g vue-cli
 $ npm install
 
 # 1.3 run project
-# npm run dev
+$ npm run dev
 ```
 
 # Available main functions
-Presenting specific products by category
-Add and delete products
-Calculate the price based on the product selected by the customer
+Presenting specific products by category  
+Add and delete products  
+Calculate the price based on the product selected by the customer  
 
