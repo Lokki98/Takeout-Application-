@@ -1,0 +1,125 @@
+.home {
+    display: flex;
+    /* 通过该方式确定高度 */
+    position: absolute;
+    top: 230px;
+    bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+    /* height: 500px; */
+}
+
+.home .menu-wrapper {
+    flex: 0 0 85px;
+    background: #f4f4f4;
+}
+
+.home .foods-wrapper {
+    flex: 1;
+    background: none;
+}
+
+.home .menu-wrapper .menu-item {
+    padding: 16px 23px 15px 10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.home .menu-wrapper .menu-item.current {
+    background: white;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+.home .menu-wrapper .menu-item .text {
+    font-size: 13px;
+    color: #333333;
+    line-height: 17px;
+    vertical-align: middle;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.home .menu-wrapper .menu-item .text .icon {
+    width: 15px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.home .foods-wrapper .container-list {
+    padding: 11px 11px 0 11px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.home .foods-wrapper .container-list img {
+    width: 100%;
+    margin-bottom: 11px;
+    border-radius: 4px;
+}
+
+.home .foods-wrapper .food-list {
+    padding: 20px;
+}
+
+.home .foods-wrapper .food-list .title {
+    font-size: 13px;
+    height: 13px;
+}
+
+.home .foods-wrapper .food-list .food-item {
+    display: flex;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.home .foods-wrapper .food-list .food-item .icon {
+    flex: 0 0 63px;
+    background-position: center;
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    margin-right: 11px;
+    height: 76px;
+}
+
+.home .foods-wrapper .food-list .food-item .content {
+    flex: 1;
+}
+
+.home .foods-wrapper .food-list .food-item .content .name {
+    font-size: 8px;
+    line-height: 15px;
+    color: #333333;
+    margin-bottom: 8px;
+    padding-right: 27px;
+}
+
+.home .foods-wrapper .food-list .food-item .content .desc {
+    font-size: 10px;
+    line-height: 19px;
+    color: #bfbfbf;
+    margin-bottom: 8px;
+}
+
+.home .foods-wrapper .food-list .food-item .content .extra {
+    font-size: 10px;
+    margin-bottom: 7px;
+    color: #bfbfbf;
+}
+
+.home .foods-wrapper .food-list .food-item .content .extra .saled {
+    margin-right: 14px;
+}
+
+.home .foods-wrapper .food-list .food-item .cartcontrol-wrapper {
+    position: absolute;
+    right: 0;
+}
+
+.home .menu-wrapper .menu-item .text .num {
+    background: red;
+    font-size: 20px;
+    width: 14px;
+    height: 19px;
+    /* position: absolute; */
+    top: 2px;
+}

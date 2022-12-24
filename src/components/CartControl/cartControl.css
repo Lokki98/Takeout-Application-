@@ -1,0 +1,48 @@
+.cartcontrol {
+    font-size: 0;
+}
+
+.cartcontrol .cart-decrease {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+}
+
+.cartcontrol .cart-count {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 26px;
+    vertical-align: top;
+}
+
+.cartcontrol .cart-add {
+    display: inline-block;
+    width: 24px;
+    height: 25px;
+    font-size: 23px;
+    color: #ffd161;
+}
+
+.cartcontrol .cart-add .bg {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    z-index: -1;
+}
+
+.move-enter-active,
+.move-leave-active {
+    transition: all 0.5s;
+}
+
+.move-enter,
+.move-leave-to {
+    transform: translateX(20px) rotate(180deg);
+}
