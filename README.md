@@ -1,8 +1,8 @@
 # Vue 《Take-out Application》
 
 ## - Introduction
-This app is based on a component-based, modular development approach.
-technology stack: Vue JS 2 + Webpack + Vue-router + Axios
+This app is based on a component-based, modular development approach.  
+Technology stack: Vue JS 2 + Webpack + Vue-router + Axios
 
 ## - Environmental Description
 `vue.js 2.x`
@@ -11,10 +11,10 @@ technology stack: Vue JS 2 + Webpack + Vue-router + Axios
 
 ##  Project Operation
 ``` bash
-# 1.1 install vue-cli 【node.js版本是要大于6.x，如果版本过低的，请先更新node!】
+# 1.1 install vue-cli 【node.js version is to be greater than 6.x, if the version is too low, please update node first!】
 $ npm install -g vue-cli
 
-# 1.2 npm packages 【切换的项目目录下】
+# 1.2 npm packages 【Switched project directory】
 $ npm install
 
 # 1.3 run project
