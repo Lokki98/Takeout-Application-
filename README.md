@@ -40,3 +40,4 @@ $ npm install
 ![06-评价页](http://bluezyz.com/usr/uploads/2019/10/1336476675.png)
 
 ![07-商家页](http://bluezyz.com/usr/uploads/2019/10/656186445.png)
+# Takeout-Application-
